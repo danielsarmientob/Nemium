@@ -1,0 +1,361 @@
+/* blod, normal, regular */
+/* * {
+    margin: 0;
+} */
+:root {
+    --gray: #545454;
+    --blue: #5551FF;
+    --blue05: #ABAAF6;
+    --black: #000000;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+body {
+    margin: 0;
+}
+#headBoard {
+    block-size: 150px;
+    background-image: linear-gradient(to left, rgba(74, 0, 224,.6), rgba(142, 45, 226,.5)), url('../images/patron.svg');
+    margin-block-end: 64px;
+}
+
+header {
+    max-inline-size: 180px;
+    background: #FFFFFF;
+    margin: auto;
+}
+details {
+    position: relative;
+}
+details ol {
+    padding: 0;
+}
+header a {
+    display: block;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+    /* block-size: 40px; */
+    margin-block: 8px;
+    padding-block: 8px;
+    padding-inline-start: 8px;
+    /* inline-size: 100%; */
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+header li:hover {
+    background: var(--blue);
+}
+
+header a {
+    transition: .3s;
+}
+
+header li:hover a {
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+.wrapper {
+    max-inline-size: 903px;
+    margin: auto;
+}
+
+h1 {
+    margin-block-end: 16px;
+    font-size: 40px;
+    line-height: 71px;
+    font-weight: 700;
+}
+
+main p {
+    line-height: 24px;
+    color: var(--gray);
+}
+
+.main-content {
+    padding: 24px;
+}
+
+hr {
+    margin-block: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-content {
+    text-align: center;
+}
+
+.section-content p span:nth-child(1) {
+    color: var(--blue)
+}
+.section-content img {
+    margin-block-start: 40px;
+    margin-block-end: 16px;
+    display: block;
+    margin-inline: auto;
+    max-inline-size: 100%;
+
+}
+
+.section-content {
+    counter-reset: titleList;
+}
+.section-content h3 {
+    counter-increment: titleList;
+}
+.section-content h3::before {
+    content: counter(titleList,decimal)'. ';
+}
+
+h2 {
+    font-size: 32px;
+    margin-block: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    margin-block-end: 16px;
+    font-weight: 400;
+}
+
+blockquote {
+    margin-block: 64px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    border-inline-start: 4px solid var(--blue);
+    margin-inline: auto;
+    max-inline-size: 633px;
+    padding-inline-start: 16px;
+}
+
+blockquote p {
+    color: #000000;
+}
+
+.section-content blockquote span:nth-child(1){
+    display: block;
+    margin-block-start: 16px;
+    color: #000000;
+}
+
+blockquote span::before {
+    content: '-';
+}
+
+/* Practicar */
+#conceptos h3{
+    margin-block-start: 40px;
+}
+pre {
+    overflow: auto;
+    font-family: 'Rubik', sans-serif;
+    text-align: start;
+    border-radius: 8px;
+    padding-inline: 40px;
+    padding-block: 40px;
+    box-sizing: border-box;
+    margin-block-start: 16px;
+    margin-block-end: 40px;
+    border: 8px solid var(--blue);
+    box-shadow: -10px 10px 0 0  var(--blue05);
+    line-height: 24px;
+    font-size: 16px;
+}
+
+#img-dom {
+    block-size: 472px;
+    margin-block-end: 40px;
+}
+ 
+.main-content li{
+    line-height: 24px;
+    color: var(--gray);
+}
+/* .main-content section:nth-child(3n+0) {
+    text-align: start;
+} */
+
+.main-content .section-content-ri {
+    text-align: start;
+}
+.section-content-modelo ul li::marker{
+    color: var(--blue);
+    block-size: 8px;
+    inline-size: 8px;
+    border-radius: 50%;
+}
+
+.slider-container {
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    font-size: 0;
+}
+
+.video{
+    margin: 0;
+    display: inline-block;
+    inline-size: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    block-size: auto;
+}
+
+.slider-bullet-list {
+    margin-block-start: 16px;
+    margin-block-end: 40px;
+    text-align: center;
+}
+
+.slider-bullet-list a {
+    display: inline-block;
+    block-size: 16px; 
+    inline-size: 16px;
+    border-radius: 50%;
+    background: var(--blue);
+}
+.section-content-ri form {
+    position: relative;
+}
+.section-content-ri input {
+    display: block;  
+    padding-block: 12px;
+    padding-inline-start: 16px;
+    border: none;
+    border: 1px solid #000000;
+    max-inline-size: 280px;
+    border-radius: 90px;
+    block-size: 48px;
+    box-sizing: border-box;
+}
+.section-content-ri input[type='text'] {
+    inline-size: 280px;
+    margin-inline-end: 16px;
+    margin-block-end: 16px;
+}
+
+.section-content-ri input[type='email'] {
+    padding-inline-end: 90px;
+    box-sizing: border-box;
+}
+
+.section-content-ri input[type='submit'] {
+    border: none;
+    color: white;
+    background: var(--blue);
+    inline-size: 126px;
+    cursor: pointer;
+
+    position: absolute;
+    inset-block-start: 64px;
+    inset-inline-start: 152px;
+}
+
+footer {
+    margin-block-start: 113px;
+    background: black;
+    block-size: 130px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-block: 10px;
+    box-sizing: border-box;
+}
+
+
+footer p::before {
+    content: '© ';
+}
+
+footer p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-block-end: 16px;
+}
+
+footer button {
+    background-repeat: no-repeat;
+    inline-size: 24px;
+    block-size: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+footer #instagram {
+    background-image: url('../images/instagram.svg');
+}
+
+footer #facebook {
+    background-image: url('../images/facebook.svg');
+}
+
+footer #twitter {
+    background-image: url('../images/twitter.svg');
+}
+
+@media screen and (min-width:1260px) {
+    
+    .header {
+        position: sticky;
+        inset-block-start: -44px;
+        background: white;
+    }
+    .header-content {
+        position: relative;
+    }
+    header {
+        position: absolute;
+        inset-block-start: 64px;
+        inset-inline-end: -195px;
+    }
+    .wrapper {
+        margin: auto auto auto 150px;
+    }
+
+    #headBoard {
+        block-size: 350px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    h1 {
+        font-size: 50px;
+    }
+    .section-content-ri input {
+        display: inline-block;  
+    }
+    .section-content-ri input[type='submit'] {
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-start: 452px;
+
+    }
+
+    footer {
+        block-size: 174px;
+        padding-block: 30px;
+    }
+    
+    footer p {
+        font-size: 32px;
+    }
+    
+}

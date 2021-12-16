@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --gray: #545454;
+}
+#headBoard {
+    block-size: 350px;
+    /* background-image: url('../images/patron.svg'); */
+    background-image: linear-gradient(to left, rgba(74, 0, 224,.6), rgba(142, 45, 226,.5)) ,url('../images/patron.svg');
+}
+
+.main {
+    border: 1px solid red;
+    text-align: center;
+    margin-block-start: 64px;
+}
+
+.main p {
+    line-height: 24px;
+    color: var(--gray);
+}
+
+main p:first-of-type {
+    margin-block-start: 16px;
+}
+.wrapper {
+    inline-size: 903px;
+    margin: auto;
+}

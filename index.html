@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Proyecto del curso esencial html y css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://danielsarmientob.github.io/esencial-html-css/" />
+    <meta property="og:image" content="https://danielsarmientob.github.io/esencial-html-css/images/dom.png" />
+
+    <meta property="og:description" 
+        content="Todo los que necesitas saber si te dedicar al Frontend" 
+    />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+    <title>Nemium</title>
+</head>
+<body>
+    <div id="headBoard"></div>
+    <div class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <header>
+                    <p>Contenido</p>
+                    <nav>
+                        <details open>
+                            <summary>Setup</summary>
+                            <ol>
+                                <li>
+                                    <a id="a" href="#google-chrome">1. Google chrome</a>
+                                </li>
+                                <li>
+                                    <a href="#visual-studio">2. Visual Studio</a>
+                                </li>
+                                <li>
+                                    <a href="#figma">3. Figma</a>
+                                </li>
+                                <li>
+                                    <a href="#github">4. GitHub</a>
+                                </li>
+                            </ol>
+                        </details>
+
+                        <details>
+                            <summary>Conceptos esenciales del Desarrollo Web</summary>
+                            <ol>
+                                <li>
+                                    <a href="#que-html">1. Qué es HTML</a>
+                                </li>
+                                <li>
+                                    <a href="#etiquetas">2. Etiquetas</a>
+                                </li>
+                                <li>
+                                    <a href="#dom">3. DOM</a>
+                                </li>
+                                <li>
+                                    <a href="#atributos">4. Atributos</a>
+                                </li>
+                                <li>
+                                    <a href="#css">5. CSS</a>
+                                </li>
+                            </ol>
+                        </details>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="wrapper">
+            <div class="main-content">
+                <h1>Curso esencial de HTML y CSS</h1>
+                <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
+                <hr>
+
+                <section class="section-content">
+                    <h2>Setup</h2>
+                    <img id="google-chrome" src="./images/googleChrome.png" alt="Logo google chrome" title="Logo google chrome">
+                    <h3 >Google Chrome</h3>
+                    <p>Chrome va a ser el <span>el navegador que utilizaremos</span> en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+
+                    <img id="visual-studio" src="./images/visualStuidoCode.png" alt="Logo visual studio" title="Logo visual studio">
+                    <h3 >Visual Studio</h3>
+                    <p>Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>                    
+
+                    <img id="figma" src="./images/figma.png" alt="Logo figma" title="Logo figma">
+                    <h3 >Figma</h3>
+                    <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su <span>fácil uso</span> porque puede ser usado directamente desde el navegador.</p>                    
+
+                    <img id="github" src="./images/gitHub.png" alt="Logo gitHub" title="Logo gitHub">
+                    <h3 >GitHub</h3>
+                    <p>Así como en Facebook te encuentran tus amigos, en Github te encuentran otras programadoras y programadores de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar tu futuro portafolio.</p>                    
+
+                    <blockquote>
+                        <p>“Este es el inicio de tu carrera como Desarrollador Web”</p>
+                        <p>
+                            <span> Leonidas Esteban</span>
+                        </p>
+                    </blockquote>
+                </section>
+
+                <section class="section-content" id="conceptos">
+                    <h2>Conceptos esenciales del Desarrollo Web</h2>
+
+                    <h3 id="que-html">Qué es HTML</h3>
+                    <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
+                    
+                    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+
+                    <h3 id="etiquetas">Etiquetas</h3>
+                    <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+                    <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
+
+                    <h3 id="dom">DOM</h3>
+                    <p>El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
+                    <img id="img-dom" src="./images/dom.png" alt="Imagen de ejemplo del DOM" title="Imagen de ejemplo del DOM">
+
+                    <h3 id="semantica">Semántica</h3>
+                    <p>La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
+
+                    <h3 id="atributos">Atributos</h3>
+                    <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
+
+                    <h3 id="css">CSS</h3>
+                    <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
+                    <img src="./images/css3.png" alt="Imagen CSS3" title="Imagen CSS3">
+                </section>
+
+                <section class="section-content-ri" >
+                    <h2>Modelo de caja</h2>
+
+                    <h3>El modelo de caja está compuesto por:</h3>
+                    <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+                    <ol>
+                        <li>Tamaño del del contenido / ancho y alto </li>
+                        <li>Padding / Relleno </li>
+                        <li>Border / Bordes </li>
+                        <li>Margin / Márgenes</li>
+                    </ol>
+
+                    <h3>Propiedades físicas para el modelo de caja:</h3>
+                    <ul>
+                        <li>width / height</li>
+                        <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+                        <li>border / border-top | border-right | border-bottom | border-left</li>
+                        <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+                    </ul>
+
+                    <h3>Propiedades lógicas para el modelo de caja:</h3>
+                    <ul>
+                        <li>inline-size / block-size</li>
+                        <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+                        <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+                        <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+                    </ul>
+                </section>
+
+                <section class="section-content-ri">
+                    <h3>Modelo de caja</h3>
+                    <scroll-container class="slider-container">
+                        <scroll-page class="slider-slide" id="video1">
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/UhzlM28dHiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </scroll-page>
+                        <scroll-page class="slider-slide" id="video2">
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/UhzlM28dHiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                        </scroll-page>
+                        <scroll-page class="slider-slide" id="video3">
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/UhzlM28dHiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </scroll-page>
+                    </scroll-container>
+                    <div class="slider-bullet-list">
+                        <a href="#video1" class="slider-bullet"></a>
+                        <a href="#video2" class="slider-bullet"></a>
+                        <a href="#video3" class="slider-bullet"></a>
+                    </div>
+                    <p>Si tienes alguna pregunta escríbeme a <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a> </p>
+                </section>
+
+                <section class="section-content-ri">
+                    <h3>Suscríbete a nuestro newsletter</h3>
+                    <form action="#">
+                        <input type="text" required placeholder="Nombre">
+                        <input type="email" required placeholder="Correo electrónico">
+                        <input type="submit" value="Suscribirme">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper-footer">
+            <div class="footer-content">
+                <p>Leonidas Esteban 2021</p>
+                <div class="content-icos">
+                    <button id="instagram" type="button"></button>
+                    <button id="facebook" type="button"></button>
+                    <button id="twitter" type="button"></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
